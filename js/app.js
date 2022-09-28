@@ -86,7 +86,7 @@
 
                 const cursor = e.target.result;
                 if(cursor){
-                    const {nombre,email,telefono,empresa, id} = cursor.value
+                    const {nombre , empresa , email , telefono , id} = cursor.value;
 
                     const listadoClientes = document.querySelector("#listado-clientes");
                     listadoClientes.innerHTML += 
